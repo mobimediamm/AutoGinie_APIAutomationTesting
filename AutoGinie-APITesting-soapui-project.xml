@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="05ecfc25-cb2c-407b-b641-0b3ac873c2a8" activeEnvironment="Default" name="AutoGinie_APITesting" resourceRoot="" soapui-version="5.2.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="a546beba-8eea-4cac-97a6-31ceb94b97d4" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://52.76.80.19:8080" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://52.76.80.19:8080</con:endpoint></con:endpoints><con:resource name="Add User" path="/usermgmt/public/adduser" id="7863d1a9-2fc9-4f30-9107-9e5ac68abd6c"><con:settings/><con:parameters/><con:method name="Adduser" id="932bca9a-e55e-412a-94d4-86683c8dd947" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>400 405</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/><con:element xmlns:add="http://52.76.80.19/usermgmt/public/adduser">add:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:add="http://52.76.80.19/usermgmt/public/adduser">add:Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="790c7764-214c-4a71-a35d-ea008879f28d" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://52.76.80.19:8080</con:endpoint><con:request>{
+<con:soapui-project id="05ecfc25-cb2c-407b-b641-0b3ac873c2a8" activeEnvironment="Default" name="AutoGinie_APITesting" resourceRoot="" soapui-version="5.2.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="a546beba-8eea-4cac-97a6-31ceb94b97d4" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://52.76.80.19:8080" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://52.76.80.19:8080</con:endpoint></con:endpoints><con:resource name="Add User" path="/usermgmt/public/adduser" id="7863d1a9-2fc9-4f30-9107-9e5ac68abd6c"><con:settings/><con:parameters/><con:method name="Adduser" id="932bca9a-e55e-412a-94d4-86683c8dd947" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>400 405 404</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/><con:element xmlns:add="http://52.76.80.19/usermgmt/public/adduser">add:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:add="http://52.76.80.19/usermgmt/public/adduser">add:Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="790c7764-214c-4a71-a35d-ea008879f28d" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://52.76.80.19:8080</con:endpoint><con:request>{
   "name": "3231243",
   "email": "Vikas.datta@mobimedia.in",
   "password": "1234",
@@ -27,11 +27,11 @@
   ],
   "status": 1
 }
-</con:request><con:originalUri>http://52.76.80.19/usermgmt/public/adduser</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="Update User" path="/usermgmt/api/users/568f55e7e4b0c8841c578700" id="67ecc262-4012-483d-a335-98d039d8da31"><con:settings/><con:parameters><con:parameter><con:name>authToken</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>loginfrom</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>usertype</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Mobile number update" id="f36cb2af-4618-4031-93e0-856a2d8b5289" method="PUT"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>401</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>400 401</con:status><con:params/><con:element xmlns:user="http://52.76.80.19/usermgmt/api/users/userId">user:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:user="http://52.76.80.19/usermgmt/api/users/userId">user:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=ISO-8859-1</con:mediaType><con:status>400 405</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="16e933cc-724f-40e5-8ffe-6aca0d2ca0cc" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://52.76.80.19:8080</con:endpoint><con:request> {
+</con:request><con:originalUri>http://52.76.80.19/usermgmt/public/adduser</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="Update User" path="/usermgmt/api/users/568f55e7e4b0c8841c578700" id="67ecc262-4012-483d-a335-98d039d8da31"><con:settings/><con:parameters><con:parameter><con:name>authToken</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>loginfrom</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>usertype</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Mobile number update" id="f36cb2af-4618-4031-93e0-856a2d8b5289" method="PUT"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>401</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>400 401</con:status><con:params/><con:element xmlns:user="http://52.76.80.19/usermgmt/api/users/userId">user:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:user="http://52.76.80.19/usermgmt/api/users/userId">user:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=ISO-8859-1</con:mediaType><con:status>400 405</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="16e933cc-724f-40e5-8ffe-6aca0d2ca0cc" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://52.76.80.19:8080</con:endpoint><con:request> {
       "id": "568a5f8de4b0d520c93b7148",
       "name": "urvashi",
-      "email": "urvashi.rana@mobimedia.in",
-      "loginFrom": "FB",
+      "email": "urvashi.rana12@gmail.com",
+      "loginFrom": "web",
       "mobileNumber": "ffgggstfrdgsfh",
       "registerDate": 1451909002428,
       "updateDate": 0,
@@ -52,12 +52,19 @@
             "USER-UPDATE",
             "USER-CREATE"
           ]
+        },
+        {
+          "roleName": "VENDOR",
+          "permissions": [
+           "VENDOR-UPDATE",
+            "VENDOR-CREATE"
+          ]
         }
       ],
       "status": 1
     }</con:request><con:originalUri>http://52.76.80.19/usermgmt/api/users/userId</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
   <con:entry key="loginfrom" value="web"/>
-  <con:entry key="authToken" value="80873a805873fb3bc8c4a3f0dcafb89c"/>
+  <con:entry key="authToken" value="aaa64555e0391d48a25f921386c470b5"/>
   <con:entry key="usertype" value="Customer"/>
 </con:parameters><con:parameterOrder><con:entry>authToken</con:entry><con:entry>loginfrom</con:entry><con:entry>usertype</con:entry></con:parameterOrder></con:request></con:method><con:method name="City Update" id="3242c4d0-0deb-4586-8595-33a6dd15daad" method="PUT"><con:settings/><con:parameters><con:parameter><con:name>authToken</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>loginfrom</con:name><con:value>web</con:value><con:style>HEADER</con:style><con:default>web</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:a5f="http://52.76.80.19/usermgmt/api/users/568a5f8de4b0d520c93b7148">a5f:Response</con:element></con:representation><con:request name="Request 1" id="714f4975-a901-411a-9f00-6c51dfcc761a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://52.76.80.19:8080</con:endpoint><con:request> {
       "id": "568a5f8de4b0d520c93b7148",
@@ -91,16 +98,9 @@
     }</con:request><con:originalUri>http://52.76.80.19/usermgmt/api/users/568a5f8de4b0d520c93b7148</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
   <con:entry key="authToken" value="80873a805873fb3bc8c4a3f0dcafb89c"/>
   <con:entry key="usertype" value="Customer"/>
-</con:parameters><con:parameterOrder><con:entry>authToken</con:entry><con:entry>loginfrom</con:entry><con:entry>usertype</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="Generate token" path="/customerauthservice/authentication/generatetoken" id="f0700738-9878-4b28-a289-42dc4f2fb410"><con:settings/><con:parameters/><con:method name="Method 1" id="d69bc0ee-674b-4cb6-8f97-642d6ab5ed25" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>500</con:status><con:params/><con:element xmlns:gen="http://52.76.80.19/customerauthservice/authentication/generatetoken">gen:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:gen="http://52.76.80.19/customerauthservice/authentication/generatetoken">gen:Response</con:element></con:representation><con:request name="Request 1" id="e8d25284-8895-4905-a5b4-7c4a4cd613c4" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://52.76.80.19:8080</con:endpoint><con:request>{
-  "email": "urvashi.rana@mobimedia.in",
-  "password": "password",
-  "loginFrom": "web",
-  "authType": "application",
-  "userType": "customer"
-}
-</con:request><con:originalUri>http://52.76.80.19/customerauthservice/authentication/generatetoken</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="Get user by ID" path="/usermgmt/api/users/568f55e7e4b0c8841c578700" id="8b1cd767-de49-4c03-bf2d-8f492eb99100"><con:settings/><con:parameters><con:parameter><con:name>authToken</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>loginfrom</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>usertype</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Method 1" id="df5bfe30-8bb6-4472-a0f6-175345e069d0" method="GET"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>401</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:user="http://52.76.80.19/usermgmt/api/users/userId">user:Response</con:element></con:representation><con:request name="Request 1" id="902af2ca-16d6-4e23-b87d-58d2fca0cdb7" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://52.76.80.19:8080</con:endpoint><con:request/><con:originalUri>http://52.76.80.19/usermgmt/api/users/userId</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+</con:parameters><con:parameterOrder><con:entry>authToken</con:entry><con:entry>loginfrom</con:entry><con:entry>usertype</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="Get user by ID" path="/usermgmt/api/users/568f55e7e4b0c8841c578700" id="8b1cd767-de49-4c03-bf2d-8f492eb99100"><con:settings/><con:parameters><con:parameter><con:name>authToken</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>loginfrom</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>usertype</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Method 1" id="df5bfe30-8bb6-4472-a0f6-175345e069d0" method="GET"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>401</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:user="http://52.76.80.19/usermgmt/api/users/userId">user:Response</con:element></con:representation><con:request name="Request 1" id="902af2ca-16d6-4e23-b87d-58d2fca0cdb7" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://52.76.80.19:8080</con:endpoint><con:request/><con:originalUri>http://52.76.80.19/usermgmt/api/users/userId</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
   <con:entry key="loginfrom" value="web"/>
-  <con:entry key="authToken" value="80873a805873fb3bc8c4a3f0dcafb89c"/>
+  <con:entry key="authToken" value="14828200d3a1258e594144c494388f4b"/>
   <con:entry key="usertype" value="Customer"/>
 </con:parameters><con:parameterOrder><con:entry>authToken</con:entry><con:entry>loginfrom</con:entry><con:entry>usertype</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="forgotpassword" path="/usermgmt/public/forgotpassword" id="a51c0aeb-070e-4b80-80fa-1f3c4ea924f1"><con:settings/><con:parameters><con:parameter><con:name>emailId</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Method 1" id="9ab07bbe-718b-4879-a41f-ef98e02f2439" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>400</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:for="http://52.76.80.19/usermgmt/public/forgotpassword">for:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>500</con:status><con:params/><con:element xmlns:for="http://52.76.80.19/usermgmt/public/forgotpassword">for:Fault</con:element></con:representation><con:request name="Request 1" id="64050394-e91f-4b94-ac73-defc39523c37" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://52.76.80.19:8080</con:endpoint><con:request/><con:originalUri>http://52.76.80.19/usermgmt/public/forgotpassword</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="emailId" value="Vikas.datta@mobimedia.in" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>emailId</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="Reset Password" path="/usermgmt/public/resetpassword" id="a17db4c3-d855-42f7-a891-05899e32d610"><con:settings/><con:parameters><con:parameter><con:name>token</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Method 1" id="7be538d8-4468-4656-aa04-41b6a59d370c" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>400</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>500</con:status><con:params/><con:element xmlns:res="http://52.76.80.19/usermgmt/public/resetpassword">res:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="565327cd-e571-4449-91c4-2cf33a8bba79" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://52.76.80.19:8080</con:endpoint><con:request>{
       "password": "passwordnew",
@@ -208,4 +208,237 @@
   <con:entry key="loginfrom" value="web"/>
   <con:entry key="authToken" value="80873a805873fb3bc8c4a3f0dcafb89c"/>
   <con:entry key="userType" value="Customer"/>
-</con:parameters><con:parameterOrder><con:entry>authToken</con:entry><con:entry>loginfrom</con:entry><con:entry>userType</con:entry><con:entry/></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
+</con:parameters><con:parameterOrder><con:entry>authToken</con:entry><con:entry>loginfrom</con:entry><con:entry>userType</con:entry><con:entry/></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="c66bbb7d-6bac-4af9-bb44-a8c6838a4bbe" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://52.76.80.19:8080" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://52.76.80.19:8080</con:endpoint></con:endpoints><con:resource name="Create Vendor" path="/VendorService/api/v1/vendor" id="d66ba9d8-df66-466b-85e2-e152415c2725"><con:settings/><con:parameters><con:parameter><con:name>loginfrom</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>authToken</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>apiVersion</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>userType</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Vendor" id="c019a7b1-1250-4429-863b-24d37f468e67" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>401 404 500</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=ISO-8859-1</con:mediaType><con:status>400</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/><con:element xmlns:ven="http://52.76.80.19/VendorService/api/v1/vendor">ven:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ven="http://52.76.80.19/VendorService/api/v1/vendor">ven:Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="3caa077d-9ce9-409c-99c2-c301262d7552" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://52.76.80.19:8080</con:endpoint><con:request>{
+  "vendorName": "motors",
+  "ownerShipType": "proprietor",
+  "establishmentYear": 2010,
+  "authDealer": true,
+  "avgCarPerDay": "1",
+  "noOfBranches": 1,
+  "authPerson": "",
+  "landLineNo": 9876543210,
+  "ownerName": "",
+  "ownerMobileNo": "",
+  "secondContact": "Musheer",
+  "mobileNo": 1234098765,
+  "email1": "",
+  "email2": "",
+  "brands": [
+    ""
+  ],
+  "createdAt": 1451460747169,
+  "updatedAt": 1451469848205,
+  "active": true,
+  "photos": [
+    
+  ],
+  "vendorWillingness": {
+    "interestLevel": "high",
+    "reasonOfInterest": "money",
+    "readyToInvest": true,
+    "willingToShare": true,
+    "displayBrandBoard": true,
+    "impressionAbtVendor": "positive",
+    "webVersion": true,
+    "mobileVersion": true,
+    "willInvestInMobile": true
+  },
+  "visitDetails": {
+    "personMet": "Shaukat Ali",
+    "personMetContactNo": 1234567890,
+    "designation": "Owner",
+    "visitDate": 1451430000000,
+    "visitedBy": "Ravi Teja",
+    "audit": "pass",
+    "onBoarded": false,
+    "comments": "Nice meeting"
+  },
+  "regulation": {
+    "govtRegistered": true,
+    "panAvailable": true,
+    "envApproaval": true,
+    "currentAccountAvailable": true,
+    "accountDetails": {
+      "accountNumber": "1234",
+      "bankName": "Axis",
+      "branchName": "Noida",
+      "IFSCCode": "1234"
+    }
+  },
+  "manPower": {
+    "noOfTechnicians": 10,
+    "techieAttendedTraining": 5,
+    "mainTechnicianName": "Mushher Khan",
+    "expOfMainTechnician": 5,
+    "qualificationOfMainTechie": "iti",
+    "certificationOfMainTechie": "pro"
+  },
+  "address": {
+    "plotOrShopNo": "",
+    "street": "",
+    "landmark": "",
+    "city": "",
+    "zone": "",
+    "area": "",
+    "state": "",
+    "pinCode": "",
+    "latitude": "",
+    "longitude": ""
+  },
+  "facilityAndEquipments": {
+    "noOfWorkBays": 2,
+    "baysCanBeAllocated": 2,
+    "noOfParkings": 5,
+    "noOfLifts": 1,
+    "noOfBasicToolSets": 100,
+    "specialToolsAvl": true,
+    "diagnosticKitAvl": true
+  },
+  "connectivity": {
+    "computer": true,
+    "printer": true,
+    "internet": true,
+    "tpyeOfConnectivity": "4G"
+  },
+  "businessPractices": {
+    "authBillAvl": true,
+    "servicePkgAvl": true,
+    "pickDropAvl": true,
+    "warrentyAvl": true
+  },
+  "amenities": [
+    
+  ],
+  "vendorServices": [
+    
+  ]
+}</con:request><con:originalUri>http://52.76.80.19/VendorService/api/v1/vendor</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="apiVersion" value="1.1"/>
+  <con:entry key="loginfrom" value="web"/>
+  <con:entry key="authToken" value="5eb061f849b081446797647df1e8a0a7"/>
+  <con:entry key="userType" value="Vendor"/>
+</con:parameters><con:parameterOrder><con:entry>loginfrom</con:entry><con:entry>authToken</con:entry><con:entry>apiVersion</con:entry><con:entry>userType</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="Update Vendor" path="/VendorService/api/v1/vendor/c8fca48d-fad0-4932-bb12-1c8570601920-1452670914039" id="f83095c4-fe6f-4c5f-bdc8-928ed66ce96c"><con:settings/><con:parameters><con:parameter><con:name>authToken</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>apiVersion</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>loginfrom</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>UserType</con:name><con:value/><con:style>HEADER</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Method 1" id="4127c598-3467-4827-8990-2580a740d1c6" method="PUT"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>text/html;charset=ISO-8859-1</con:mediaType><con:status>405</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>500</con:status><con:params/><con:element xmlns:c8f="http://52.76.80.19/VendorService/api/v1/vendor/c8fca48d-fad0-4932-bb12-1c8570601920-1452670914039">c8f:Fault</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>401 403 500</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:c8f="http://52.76.80.19/VendorService/api/v1/vendor/c8fca48d-fad0-4932-bb12-1c8570601920-1452670914039">c8f:Response</con:element></con:representation><con:request name="Request 1" id="b6e552eb-684d-4a17-a34a-c7f106599c8e" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://52.76.80.19:8080</con:endpoint><con:request>{
+      "vendorId": "c8fca48d-fad0-4932-bb12-1c8570601920-1452670914039",
+      "vendorName": "Galaxy Motors",
+      "ownerShipType": "proprietor",
+      "establishmentYear": 2015,
+      "authDealer": true,
+      "avgCarPerDay": 30,
+      "noOfBranches": 1,
+      "authPerson": "Shaukat Ali",
+      "landLineNo": 9876543210,
+      "ownerName": "Shaukat",
+      "ownerMobileNo": 7856341209,
+      "secondContact": "Musheer",
+      "mobileNo": 1234098765,
+      "email1": "info@shaukatmotors.com",
+      "email2": "customercare@shaukatmotors.com",
+      "brands": [
+        "Maruti Suzuki-cedcce51-b924-495c-a0de-0599c39c0424-1449665323189"
+      ],
+      "createdAt": 1451471776677,
+      "updatedAt": 1451471776677,
+      "active": false,
+      "photos": [],
+      "vendorWillingness": {
+        "interestLevel": "high",
+        "reasonOfInterest": "money",
+        "readyToInvest": true,
+        "willingToShare": true,
+        "displayBrandBoard": true,
+        "impressionAbtVendor": "positive",
+        "webVersion": true,
+        "mobileVersion": true,
+        "willInvestInMobile": true
+      },
+      "visitDetails": {
+        "personMet": "Shaukat Ali",
+        "personMetContactNo": 1234567890,
+        "designation": "Owner",
+        "visitDate": 1451430000000,
+        "visitedBy": "Ravi Teja",
+        "audit": "pass",
+        "onBoarded": false,
+        "comments": "Nice meeting"
+      },
+      "regulation": {
+        "govtRegistered": true,
+        "panAvailable": true,
+        "envApproaval": true,
+        "currentAccountAvailable": true,
+        "accountDetails": {
+          "accountNumber": "1234",
+          "bankName": "Axis",
+          "branchName": "Noida"
+        }
+      },
+      "manPower": {
+        "noOfTechnicians": 10,
+        "techieAttendedTraining": 5,
+        "mainTechnicianName": "Mushher Khan",
+        "expOfMainTechnician": 5,
+        "qualificationOfMainTechie": "iti",
+        "certificationOfMainTechie": "pro"
+      },
+      "address": {
+        "plotOrShopNo": "A 51",
+        "street": "naya bans",
+        "landmark": "Near Wipro",
+        "city": "Noida",
+        "zone": "",
+        "area": "sector 16",
+        "state": "UP",
+        "pinCode": 201301,
+        "latitude": 28.5812226,
+        "longitude": 77.3134166
+      },
+      "facilityAndEquipments": {
+        "noOfWorkBays": 2,
+        "baysCanBeAllocated": 2,
+        "noOfParkings": 5,
+        "noOfLifts": 1,
+        "noOfBasicToolSets": 100,
+        "specialToolsAvl": true,
+        "diagnosticKitAvl": true
+      },
+      "connectivity": {
+        "computer": true,
+        "printer": true,
+        "internet": true,
+        "tpyeOfConnectivity": "4G"
+      },
+      "businessPractices": {
+        "authBillAvl": true,
+        "servicePkgAvl": true,
+        "pickDropAvl": true,
+        "warrentyAvl": true
+      },
+      "amenities": [],
+      "vendorServices": []
+    }</con:request><con:originalUri>http://52.76.80.19/VendorService/api/v1/vendor/c8fca48d-fad0-4932-bb12-1c8570601920-1452670914039</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="UserType" value="Vendor"/>
+  <con:entry key="loginfrom" value="web"/>
+  <con:entry key="apiVersion" value="1.1"/>
+  <con:entry key="authToken" value="5eb061f849b081446797647df1e8a0a7"/>
+</con:parameters><con:parameterOrder><con:entry>authToken</con:entry><con:entry>apiVersion</con:entry><con:entry>loginfrom</con:entry><con:entry>UserType</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="8832ea07-43c3-4f10-a746-c9e785de6c3d" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://52.76.80.19:8080" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://52.76.80.19:8080</con:endpoint></con:endpoints><con:resource name="Generatetoken" path="/authservice/authentication/generatetoken" id="a364211c-e6a2-491f-b2d9-e49672950a73"><con:settings/><con:parameters/><con:method name="Generate Token for Admin" id="0288212d-273d-46c7-99de-f9b3a2a4f932" method="POST"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:gen="http://52.76.80.19/authservice/authentication/generatetoken">gen:Response</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>500</con:status><con:params/><con:element xmlns:gen="http://52.76.80.19/authservice/authentication/generatetoken">gen:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="8b83633c-dc68-481f-be5f-e9ac47f706a7" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://52.76.80.19:8080</con:endpoint><con:request>{
+  "email": "vikas@autoginie.com",
+  "password": "password",
+  "loginFrom": "web",
+  "authType": "application",
+  "userType": "Admin"
+}
+</con:request><con:originalUri>http://52.76.80.19/authservice/authentication/generatetoken</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method><con:method name="Generate Token for Customer" id="5ddacd8e-d7d7-4995-ba5a-8a600f8b819e" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>500</con:status><con:params/><con:element xmlns:gen="http://52.76.80.19/authservice/authentication/generatetoken">gen:Fault</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:gen="http://52.76.80.19/authservice/authentication/generatetoken">gen:Response</con:element></con:representation><con:request name="Request 1" id="1fbae2bd-0fad-4947-9b91-f2e46846c377" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://52.76.80.19:8080</con:endpoint><con:request>{
+  "email": "urvashi.rana12@gmail.com",
+  "password": "password",
+  "loginFrom": "web",
+  "authType": "application",
+  "userType": "Customer"
+}
+</con:request><con:originalUri>http://52.76.80.19/authservice/authentication/generatetoken</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method><con:method name="Generate Token for Vendor" id="58ba307a-22bb-462b-9a40-2adaa54fdee7" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:gen="http://52.76.80.19/authservice/authentication/generatetoken">gen:Response</con:element></con:representation><con:request name="Request 1" id="3868b295-f585-46fc-a425-6d2644ea2aa1" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://52.76.80.19:8080</con:endpoint><con:request>{
+  "email": "vikas@autoginie.com",
+  "password": "password",
+  "loginFrom": "web",
+  "authType": "application",
+  "userType": "Vendor"
+}
+</con:request><con:originalUri>http://52.76.80.19/authservice/authentication/generatetoken</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
